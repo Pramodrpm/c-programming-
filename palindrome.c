@@ -28,3 +28,16 @@ int main()
 
     return 0;
 }
+
+
+
+The program reads a string from the user, 
+then checks if it's a palindrome by iterating over the string from both ends simultaneously 
+and comparing the characters. If the characters don't match, 
+the flag variable is set to 0 and the loop is exited. 
+If the loop completes without finding any non-matching characters, 
+the string is a palindrome and the flag variable is still 1, 
+which is printed out accordingly.
+
+
+
